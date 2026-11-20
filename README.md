@@ -43,6 +43,10 @@ npx skills add ciprianoancia/fix-local-ai-cache
 - **Agent Frontends (OpenClaw, Hermes, Cline, Continue):** Ensures static system prefixes and preserves `<think>` blocks in multi-turn history.
 - **Hybrid / Reasoning Models (e.g., Qwen3.8):** Lowers reasoning effort from `xhigh` to `medium` to avoid context bloat and recurrent checkpoint misses.
 
+## Credits
+
+Inspired by and based on the KV prefix-caching investigation and troubleshooting checklist by **Kai** in [Why Your Mac Is Slow at Local AI (And It's Not the Chip)](https://www.youtube.com/watch?v=x_qmqqp6d7s).
+
 ## License
 
 MIT
